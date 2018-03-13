@@ -1,5 +1,5 @@
 # LM358synth
-Pete McBennet's "simplest DIY"  dual oscillator synth at [https://www.youtube.com/watch?v=yZSkNASlMjM]. 
+Pete McBennet's "simplest DIY"  dual oscillator synth at [https://www.youtube.com/watch?v=yZSkNASlMjM]. See also [https://www.youtube.com/watch?v=wPeH6KfH8RY] for layout on a breadboard. And [https://www.youtube.com/watch?v=GxnAC2Ivmbs]
 
 Schematic from [https://drive.google.com/file/d/0Bzxodk3UiKRgSXc0OVBWQnNfM00/view]
 
@@ -7,39 +7,32 @@ Schematic from [https://drive.google.com/file/d/0Bzxodk3UiKRgSXc0OVBWQnNfM00/vie
 
 ## BOM
 
-- R1   47k
-- R2   22k
-- R3   10k
-- R4  100k
-- R5  100k
-- R6   47k
-- R7   22k
-- R8  470k
-- R9  100k
-- R10 100k
-- R11  22k
-- R12 100k
-- R13  50k pot, PWM balance
-- R14  47k
-- R15  4k7
-- R16-R23 100k pot - key tuning - try with 1 key only!
-- R24  10k
-- R25  10k
-- R26 100k
-- R27 100k
-- R28  22k
-- R29 390k
-- R30  22k
-- R31  47k
-- R32  10k
-- R33  22k
+'*' means that its done on the breadboard!
+
+- 47k		1* ,6* ,14* ,31*
+- 22k		*ordered* 2,7,11,28,30,33
+- 10k		3* ,24* ,25* ,32*
+- 100k		4* ,5* ,9* ,10* ,12* ,26* ,27*
+- R8  		470k*
+- R13  					50k pot, PWM balance
+- R15  		4k7*
+- R16-R23 				100k pot - key tuning - try with 1 key only!
+- R29 		*ordered*	390k
+
 
 - LDR1 & LDR2 - 2022382 jameco (10k)
 
 - U1-5 LM358
 
-- C1 0u22f
-- C2 2u2F +
-- C3 4u7F +
-- C4,C5  0u001F
-- C6     4u7F +
+- C1 					0u22f
+- C2 					2u2F +
+- C3 					4u7F +
+- C4,C5  				0u001F
+- C6     				4u7F +
+
+
+## Notes on the circuit. 
+
+I'm not sure where the little squares in the circuit diagram should be connected. 
+
+[https://e2e.ti.com/blogs_/archives/b/thesignal/archive/2012/11/27/the-unused-op-amp-what-to-do]
