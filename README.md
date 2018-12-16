@@ -22,6 +22,7 @@ PCB also available at [https://www.pcbway.com/project/shareproject/Portable_LDR_
 
 - 50k pot: R13 - PWM balance
 - 100k pot: R16-R23 - key tuning - *(Breadboarded with 1 'key' only!)*
+- pushbutton, momentary: SW1-SW8 - *(Breadboarded with 1 'key' only!)*
 - 2022382 jameco (10k): LDR1 & LDR2 - *For control of the filter by shading with hand/pot etc.*
 
 #### ICs:
