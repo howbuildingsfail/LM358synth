@@ -10,13 +10,13 @@ PCB also available at [https://www.pcbway.com/project/shareproject/Portable_LDR_
 ## BOM
 #### Resistors:
 
-- 47k		R1 ,R6 ,R14 ,R31
-- 22k		R2 ,R7 ,R11 ,R28 ,R30 ,R33
-- 10k		R3 ,R24 ,R25 ,R32
-- 100k	R4 ,R5 ,R9 ,R10 ,R12 ,R26 ,R27
-- 470k  R8
-- 4k7   R15
-- 390k  R29
+- 47k:		R1 ,R6 ,R14 ,R31
+- 22k:		R2 ,R7 ,R11 ,R28 ,R30 ,R33
+- 10k:		R3 ,R24 ,R25 ,R32
+- 100k:	R4 ,R5 ,R9 ,R10 ,R12 ,R26 ,R27
+- 470k:  R8
+- 4k7:   R15
+- 390k:  R29
 
 #### Pots, buttons etc:
 
@@ -26,19 +26,19 @@ PCB also available at [https://www.pcbway.com/project/shareproject/Portable_LDR_
 
 #### ICs:
 
-- U1-5 LM358
+- LM358: U1-U5
 
 #### Capacitors:
 
 
-- 0u22f  C1 					
-- 0u001F C4,C5  				
+- 0u22F:  C1 					
+- 0u001F: C4,C5  				
 
 *Electrolytics:*
 
-- 2u2F  C2
-- 4u7F  C3
-- 4u7F  C6
+- 2u2F:  C2
+- 4u7F:  C3
+- 4u7F:  C6
 
 
 ## Notes on the circuit. 
@@ -46,3 +46,5 @@ PCB also available at [https://www.pcbway.com/project/shareproject/Portable_LDR_
 I'm not sure where the little squares in the circuit diagram should be connected. Maybe they aren't connected at all... 
 
 [https://e2e.ti.com/blogs_/archives/b/thesignal/archive/2012/11/27/the-unused-op-amp-what-to-do]
+
+... Having implemented it, this is correct - or correct enough!
