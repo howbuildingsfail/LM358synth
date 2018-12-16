@@ -10,21 +10,19 @@ PCB also available at [https://www.pcbway.com/project/shareproject/Portable_LDR_
 ## BOM
 #### Resistors:
 
-- 47k		1 ,6 ,14 ,31
-- 22k		2 ,7 ,11 ,28 ,30 ,33
-- 10k		3 ,24 ,25 ,32
-- 100k	4 ,5 ,9 ,10 ,12 ,26 ,27
-- 470k  8
-- 4k7   15
-- 390k  29
+- 47k		R1 ,R6 ,R14 ,R31
+- 22k		R2 ,R7 ,R11 ,R28 ,R30 ,R33
+- 10k		R3 ,R24 ,R25 ,R32
+- 100k	R4 ,R5 ,R9 ,R10 ,R12 ,R26 ,R27
+- 470k  R8
+- 4k7   R15
+- 390k  R29
 
 #### Pots, buttons etc:
 
-- R13  					50k pot, PWM balance
-- R16-R23 				100k pot - key tuning - try with 1 key only!
-
-
-- LDR1 & LDR2 - 2022382 jameco (10k)
+- 50k pot: R13 - PWM balance
+- 100k pot: R16-R23 - key tuning - *(Breadboarded with 1 'key' only!)*
+- 2022382 jameco (10k): LDR1 & LDR2 - *For control of the filter by shading with hand/pot etc.*
 
 #### ICs:
 
@@ -32,11 +30,15 @@ PCB also available at [https://www.pcbway.com/project/shareproject/Portable_LDR_
 
 #### Capacitors:
 
-- C1 					0u22f
-- C2 					2u2F +
-- C3 					4u7F +
-- C4,C5  				0u001F
-- C6     				4u7F +
+
+- 0u22f  C1 					
+- 0u001F C4,C5  				
+
+*Electrolytics:*
+
+- 2u2F  C2
+- 4u7F  C3
+- 4u7F  C6
 
 
 ## Notes on the circuit. 
