@@ -49,3 +49,10 @@ I'm not sure where the little squares in the circuit diagram should be connected
 [https://e2e.ti.com/blogs_/archives/b/thesignal/archive/2012/11/27/the-unused-op-amp-what-to-do]
 
 ... Having implemented it, this is correct - or correct enough!
+
+# Breadboard version
+
+Here's the circuit implemented on a breadboard, with a single 'note' key:
+
+![Breadboard](breadboard.jpg)
+
